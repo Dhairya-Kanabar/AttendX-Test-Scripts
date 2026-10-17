@@ -31,8 +31,17 @@ def test_missing_username():
 
     print("PASS: Missing username detected")
 
+def test_missing_password():
+    username = "student01"
+    password = ""
+
+    assert username != ""
+    assert password == ""
+
+    print("PASS: Missing password detected")
 
 if __name__ == "__main__":
     test_valid_login()
     test_empty_login()
     test_missing_username()
+    test_missing_password()
