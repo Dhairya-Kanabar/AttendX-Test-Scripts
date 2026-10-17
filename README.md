@@ -26,3 +26,8 @@ Open the terminal in VS Code and run:
 ```bash
 python login_test.py
 python attendance_test.py
+
+## Team Collaboration
+
+GitHub is used to share test scripts and maintain
+a history of changes made by team members.
